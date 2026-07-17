@@ -3,11 +3,17 @@ import Slider from "../src/components/slider"
 import About from "../src/components/about";
 // import Portfolio from "../../components/portfolio/PortfolioTwo";
 import Brand from "../src/components/brand";
+import Head from "next/head";
 // import CallToAction from "../../components/calltoactions/CallToActionTwo";
 // import Footer from "../../components/footer/Footer";
 
 const HomeTwo = () => {
   return (
+    <>
+    <Head>
+      <title>Jeffrey Martinez - Learn More About Me!</title>
+    </Head>
+    
     <div className="home-two">
       <Header />
       <Slider />
@@ -64,6 +70,7 @@ const HomeTwo = () => {
       {/* <CallToAction /> */}
       {/* <Footer /> */}
     </div>
+    </>
   );
 };
 
