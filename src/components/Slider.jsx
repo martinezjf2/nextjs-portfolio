@@ -1,5 +1,5 @@
 import React from "react";
-import Social from "../components/social";
+import Social from "./Social";
 
 const Slider = () => {
   return (

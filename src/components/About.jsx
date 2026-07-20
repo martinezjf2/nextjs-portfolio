@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutTwo = () => {
+const About = () => {
   return (
     <>
       <div className="shane_tm_section" id="about">
@@ -44,7 +44,7 @@ const AboutTwo = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I'm a developer who loves bringing creative ideas to life
+                    I&lsquo;m a developer who loves bringing creative ideas to life
                     through web applications. Whether learning a new language or
                     enhancing projects with user-friendly features, I’m always
                     looking to push my limits.
@@ -75,4 +75,4 @@ const AboutTwo = () => {
   );
 };
 
-export default AboutTwo;
+export default About;

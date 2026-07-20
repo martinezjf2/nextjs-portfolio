@@ -1,13 +1,15 @@
-import Header from "../src/components/header";
-import Slider from "../src/components/slider"
-import About from "../src/components/about";
-// import Portfolio from "../../components/portfolio/PortfolioTwo";
-import Brand from "../src/components/brand";
 import Head from "next/head";
-// import CallToAction from "../../components/calltoactions/CallToActionTwo";
-// import Footer from "../../components/footer/Footer";
+import Header from "@/src/components/Header";
+import Slider from "@/src/components/slider"
+import About from "@/src/components/about";
+import Brand from "@/src/components/brand";
+import Portfolio from "@/src/components/portfolio";
+import CallToAction from "@/src/components/CallToAction";
+import Footer from "@/src/components/Footer";
+import { portfolioItems } from "@/src/data/portfolio"
 
-const HomeTwo = () => {
+
+const Home = () => {
   return (
     <>
     <Head>
@@ -30,7 +32,7 @@ const HomeTwo = () => {
       {/* End shane_tm_partners */}
 
       <About />
-      {/* <Portfolio /> */}
+      <Portfolio items={portfolioItems}/>
       {/* <Skills /> */}
       {/* <Video /> */}
 
@@ -67,11 +69,11 @@ const HomeTwo = () => {
       {/* <Blog /> */}
       {/* End Blog Section */}
 
-      {/* <CallToAction /> */}
-      {/* <Footer /> */}
+      <CallToAction />
+      <Footer />
     </div>
     </>
   );
 };
 
-export default HomeTwo;
+export default Home;

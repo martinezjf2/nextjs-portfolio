@@ -41,10 +41,7 @@ export default function Document() {
         />
 
         {/* Meta Tags */}
-        <meta charset="utf-8" />
-        <meta name="apple-mobile-web-app-title" content="Jeffrey Martinez" />
-        <meta name="mobile-web-app-capable" content="Jeffrey Martinez"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="React Personal Portfolio" />
 

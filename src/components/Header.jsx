@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Scrollspy from "react-scrollspy";
-import Social from "../components/social";
+import Social from "./Social";
 import Link from "next/link";
 
 const Header = () => {
