@@ -1,24 +1,12 @@
 import React from "react";
+import { socials } from "../data/socials";
 
-const SocialShare = [
-  {
-    iconName: "linkedin",
-    link: "https://www.linkedin.com/in/martinezjf2/",
-  },
-  {
-    iconName: "medium",
-    link: "https://martinezjf2.medium.com",
-  },
-  {
-    iconName: "github",
-    link: "https://github.com/martinezjf2",
-  }
-];
 const Social = () => {
+
   return (
     <>
       <ul className="social social-default position-relative">
-        {SocialShare.map((val, i) => (
+        {socials.map((val, i) => (
           <li key={i}>
             <a href={`${val.link}`} target="_blank" rel="noreferrer">
               <img
@@ -30,7 +18,6 @@ const Social = () => {
           </li>
         ))}
       </ul>
-      {/* END social */}
     </>
   );
 };

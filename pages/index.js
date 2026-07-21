@@ -9,7 +9,9 @@ import Footer from "@/src/components/Footer";
 import { portfolioItems } from "@/src/data/portfolio"
 
 
+
 const Home = () => {
+
   return (
     <>
     <Head>
@@ -18,7 +20,7 @@ const Home = () => {
     
     <div className="home-two">
       <Header />
-      <Slider />
+      <Slider/>
 
       <div className="shane_tm_section">
         <div className="shane_tm_partners">

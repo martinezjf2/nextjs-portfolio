@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "./Social";
 
-const Slider = () => {
+const Slider = ({subtitle = "Software Developer"}) => {
   return (
     <div className="slider-two" id="home">
       <div className="shane_tm_hero" id="home" data-style="three">
@@ -29,7 +29,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                Software Developer, Content Editor, Email Developer
+                {subtitle}
                 <span className="overlay_effect"></span>
               </span>
             </div>
