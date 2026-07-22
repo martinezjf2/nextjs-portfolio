@@ -9,7 +9,6 @@ import Footer from "@/src/components/Footer";
 import { portfolioItems } from "@/src/data/portfolio";
 import { categoryNames } from "@/src/data/category";
 
-
 export default function CategoryPage({ projects, categoryName }) {
   // console.log({ projects, categoryName });
   return (
@@ -25,7 +24,7 @@ export default function CategoryPage({ projects, categoryName }) {
 
       <div className="home-two">
         <Header />
-        <Slider subtitle={categoryName}/>
+        <Slider subtitle={categoryName} />
 
         <div className="shane_tm_section">
           <div className="shane_tm_partners">
@@ -69,6 +68,8 @@ export function getStaticProps({ params }) {
 
   //   Add an object first with keys and values of the category name and subtitles.
   //   Make sure to add the object within the Data folder to export here and to the slug
+
+  // Having one issue, where I have to type in landing-page-developer instead of content-editor. And the when typing in /shopify-developer does not show the project that i've made
 
   return {
     props: {
