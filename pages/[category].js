@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Header from "@/src/components/Header";
-import Slider from "@/src/components/slider";
-import About from "@/src/components/about";
-import Brand from "@/src/components/brand";
-import Portfolio from "@/src/components/portfolio";
+import Slider from "@/src/components/Slider";
+import About from "@/src/components/About";
+import Brand from "@/src/components/Brand";
+import Portfolio from "@/src/components/Portfolio";
 import CallToAction from "@/src/components/CallToAction";
 import Footer from "@/src/components/Footer";
 import { portfolioItems } from "@/src/data/portfolio";
