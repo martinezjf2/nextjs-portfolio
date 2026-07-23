@@ -3,7 +3,7 @@ import Scrollspy from "react-scrollspy";
 import Social from "./Social";
 import Link from "next/link";
 
-const Header = () => {
+const Header = ({home_link = "/"}) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const [navbar, setNavbar] = useState(false);
@@ -30,7 +30,7 @@ const Header = () => {
       <div className="shane_tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
-            <Link href="/">
+            <Link href={home_link}>
               <img
                 src="/img/logo/new/jeffrey-2.png"
                 alt="partners brand"

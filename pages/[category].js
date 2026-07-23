@@ -9,7 +9,7 @@ import Footer from "@/src/components/Footer";
 import { portfolioItems } from "@/src/data/portfolio";
 import { categoryNames } from "@/src/data/category";
 
-export default function CategoryPage({ projects, categoryName }) {
+export default function CategoryPage({ projects, categoryName, path }) {
   // console.log({ projects, categoryName });
   return (
     <>
@@ -23,7 +23,7 @@ export default function CategoryPage({ projects, categoryName }) {
       </Head>
 
       <div className="home-two">
-        <Header />
+        <Header home_link={path}/>
         <Slider subtitle={categoryName} />
 
         <div className="shane_tm_section">
@@ -60,6 +60,8 @@ export function getStaticPaths() {
 }
 
 export function getStaticProps({ params }) {
+  // console.log(params.category)
+  const path = `/${params.category}`
   const categoryName = categoryNames[params.category];
 
   const projects = portfolioItems.filter(
@@ -75,6 +77,7 @@ export function getStaticProps({ params }) {
     props: {
       projects,
       categoryName,
+      path
     },
   };
 }
