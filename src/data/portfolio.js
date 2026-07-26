@@ -13,26 +13,28 @@ export let portfolioItems  = [
     portfolioLink: "https://stkilianspanishministry.com",
     categorySlug: "fullstack-developer",
   },
-  {
-    img: "/img/portfolio/carrysmart.png",
-    title: "CarrySmart",
-    meta: "Shopify",
-    portfolioLink: "https://jeffrey-carrysmart.myshopify.com/",
-    password: "1234",
-    categorySlug: "content-editor",
-  },
+  
   // {
   //   img: "/img/portfolio/guild.png",
   //   title: "Guild Education",
   //   meta: "Fullstack",
   //   portfolioLink: "https://guild-education-replica.herokuapp.com",
   // },
+  
   {
     img: "/img/portfolio/realestate.png",
     title: "Portos",
     meta: "Landing",
     portfolioLink: "https://jeffrey-portos-landing-page.netlify.app/",
     categorySlug: "frontend-developer",
+  },
+   {
+    img: "/img/portfolio/carrysmart.png",
+    title: "CarrySmart",
+    meta: "Shopify",
+    portfolioLink: "https://jeffrey-carrysmart.myshopify.com/",
+    password: "1234",
+    categorySlug: "content-editor",
   },
   {
     img: "/img/portfolio/dvc.png",
@@ -42,6 +44,13 @@ export let portfolioItems  = [
     categorySlug: "email-developer",
   },
   {
+    img: "/img/portfolio/joncarlos.png",
+    title: "Concert Ticket",
+    meta: "Email",
+    portfolioLink: "https://jon-carlos-ticket.netlify.app/",
+    categorySlug: "email-developer",
+  },
+   {
     img: "/img/portfolio/soccer.png",
     title: "Soccer.com",
     meta: "Email",
@@ -56,19 +65,14 @@ export let portfolioItems  = [
     categorySlug: "email-developer",
   },
   {
-    img: "/img/portfolio/sketch.png",
-    title: "Sketch Release",
+    img: "/img/portfolio/thank-you-email.png",
+    title: "Thank You Email",
     meta: "Email",
-    portfolioLink: "https://jeffrey-sketch-release-email.netlify.app",
-    categorySlug: "email-developer",
+    portfolioLink: "https://concert-thank-you-email.netlify.app",
+    categorySlug: "email-developer"
   },
-  {
-    img: "/img/portfolio/joncarlos.png",
-    title: "Concert Ticket",
-    meta: "Email",
-    portfolioLink: "https://jon-carlos-ticket.netlify.app/",
-    categorySlug: "email-developer",
-  },
+ 
+  
   // {
   //   img: "/img/portfolio/seguidores.png",
   //   title: "Spanish Ministry",
@@ -76,4 +80,13 @@ export let portfolioItems  = [
   //   portfolioLink: "https://www.seguidoresdejesus.com",
   //   details: "Ruby on Rails",
   // },
+
+   // {
+  //   img: "/img/portfolio/sketch.png",
+  //   title: "Sketch Release",
+  //   meta: "Email",
+  //   portfolioLink: "https://jeffrey-sketch-release-email.netlify.app",
+  //   categorySlug: "email-developer",
+  // },
 ];
+
